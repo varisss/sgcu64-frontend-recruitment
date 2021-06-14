@@ -20,7 +20,7 @@
 2. เว็บไซต์มีหน้าตาเหมือนกับ UX/UI ที่กำหนดไว้
 3. เว็บไซต์มีระบบ Form Validation เช่น email มี `@` ไหม, รหัสผ่านกับยืนยันรหัสผ่านตรงกันหรือไม่ เป็นต้น
 4. เว็บไซต์สามารถ Responsive ได้ (เว็บใน Mobile และ Desktop ต้องไม่เละ!)
-5. เว็บไซต์สามารถ Navigate ผู้ใช้ไปยัง Social Media อื่น ๆ ได้เช่น Facebook, Instragram และ Twitter
+5. เว็บไซต์สามารถ Navigate ผู้ใช้ไปยัง Social Media อื่น ๆ ได้เช่น Facebook, Instagram และ Twitter
 
 ## Tips
 
