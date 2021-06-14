@@ -11,7 +11,7 @@
 
 &emsp; ใน 1 ปีถัดมา ตัวคุณเองพบว่า Web Application ดังกล่าวของ ISD SGCU63 มี User Experience ที่ใช้งานยาก จึงได้ทำการเขียนโปรแกรม Chula Chana (จุฬาฯ ชนะ) เพื่อแข่งขันกับ CU Check In และ ไทยชนะ เพื่อที่จะก้าวขึ้นเป็นที่หนึ่งของ Tracking Application ของประเทศไทยให้ได้เล้ย
 
-```zsh
+```
 Welcome to Chula Chana!!!
 Available commands:
   1. Check in user
