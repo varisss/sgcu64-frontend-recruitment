@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <title>ISD SGCU</title>
   </head>
   <body>
@@ -17,30 +18,50 @@
     </div>
     <div class="content">
       <!-- USER CODE BEGIN: Control image -->
-      <img class="kite" />
-      <img class="cloud cloud1" />
-      <img class="cloud cloud2" />
-      <img class="cloud cloud3" />
+      <div id="images">
+        <img class="kite" src="assets/img/kite.png" />
+        <img class="cloud cloud1" src="assets/img/cloud1.png" />
+        <img class="cloud cloud2" src="assets/img/cloud2.png" />
+        <img class="cloud cloud3" src="assets/img/cloud3.png" />
+      </div>
       <!-- USER CODE BEGIN: Control image -->
       <div class="register-card">
         <h1 class="title">ลงทะเบียน</h1>
         <p class="subtitle">กรุณากรอกข้อมูลให้ครบถ้วน</p>
         <form id="register-form">
-          <input name="name" placeholder="ชื่อ" />
-          <input name="lastname" placeholder="นามสกุล" />
-          <input name="username" placeholder="ชื่อผู้ใช้" />
-          <input name="email" type="email" placeholder="อีเมล" />
-          <input name="password" type="password" placeholder="รหัสผ่าน" />
-          <input name="confirmpassword" type="password" placeholder="ยืนยันรหัสผ่าน" />
-          <button type="submit">Submit</button>
+          <div class="input-div">
+            <input id="nameElement" class="form-control" name="name" type="text" placeholder="ชื่อ" />
+            <p class="message"></p>
+          </div>
+          <div class="input-div">
+            <input id="lastname" class="form-control" name="lastname" type="text" placeholder="นามสกุล" />
+            <p class="message"></p>
+          </div>
+          <div class="input-div">
+            <input id="username" class="form-control" name="username" type="text" placeholder="ชื่อผู้ใช้" />
+            <p class="message"></p>
+          </div>
+          <div class="input-div">
+            <input id="email" type="email" class="form-control" name="email" type="email" placeholder="อีเมล" />
+            <p class="message"></p>
+          </div>
+          <div class="input-div">
+            <input id="password" class="form-control" name="password" type="password" placeholder="รหัสผ่าน" />
+            <p class="message"></p>
+          </div>
+          <div class="input-div">
+            <input id="confirmpassword" class="form-control" name="confirmpassword" type="password" placeholder="ยืนยันรหัสผ่าน" />
+            <p class="message"></p>
+          </div>
+          <button class="btn btn-block" type="submit">Submit</button>
         </form>
       </div>
     </div>
     <div class="footer">
       <!-- USER CODE BEGIN: Navigate social media -->
-      <a><img class="contact-logo" src="assets/img/ig-logo.svg" /></a>
-      <a><img class="contact-logo" src="assets/img/fb-logo.svg" /></a>
-      <a><img class="contact-logo" src="assets/img/twitter-logo.svg" /></a>
+      <a href="https://www.instagram.com/sgcu.chula/"><img class="contact-logo" src="assets/img/ig-logo.svg" /></a>
+      <a href="https://www.facebook.com/sgcu.chula/"><img class="contact-logo" src="assets/img/fb-logo.svg" /></a>
+      <a href="https://twitter.com/sgcu_chula"><img class="contact-logo" src="assets/img/twitter-logo.svg" /></a>
       <!-- USER CODE END: Navigate social media -->
     </div>
   </body>
